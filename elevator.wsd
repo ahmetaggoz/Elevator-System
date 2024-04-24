@@ -1,0 +1,8 @@
+@startuml
+title Elevator System
+class Elevator {
+    -capacity: int
+    +openDoor(): void
+    +closeDoor(): void
+}
+@enduml
